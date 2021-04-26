@@ -1,0 +1,11 @@
+@import 'base.scss';
+@include basic-rows(1,red);
+@include basic-rows(2,blue);
+@include basic-rows(3,green);
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+

@@ -1,0 +1,13 @@
+@import 'objets.scss';
+
+#content{
+    display: flex;
+    margin: 20px;
+    justify-content: space-between;
+    align-items: center;
+
+   @include style-A;
+
+   @include style-B;
+}
+

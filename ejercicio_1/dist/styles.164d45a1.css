@@ -1,0 +1,240 @@
+.basic-row-1 {
+  display: flex;
+  justify-content: center;
+  width: 95vw;
+}
+.basic-row-1 .base-color {
+  color: white;
+  font-weight: bolder;
+  border-radius: 5px;
+  background-color: red;
+  margin: 5px;
+  padding: 20px;
+}
+.basic-row-1 .item-1 {
+  margin: 5px;
+  padding: 20px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bolder;
+  background-color: #990000;
+}
+.basic-row-1 .item-2 {
+  margin: 5px;
+  padding: 20px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bolder;
+  background-color: #b30000;
+}
+.basic-row-1 .item-3 {
+  margin: 5px;
+  padding: 20px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bolder;
+  background-color: #cc0000;
+}
+.basic-row-1 .item-4 {
+  margin: 5px;
+  padding: 20px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bolder;
+  background-color: #e60000;
+}
+.basic-row-1 .item-5 {
+  margin: 5px;
+  padding: 20px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bolder;
+  background-color: #ff6666;
+}
+.basic-row-1 .item-6 {
+  margin: 5px;
+  padding: 20px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bolder;
+  background-color: #ff7a7a;
+}
+.basic-row-1 .item-7 {
+  margin: 5px;
+  padding: 20px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bolder;
+  background-color: #ff8f8f;
+}
+.basic-row-1 .item-8 {
+  margin: 5px;
+  padding: 20px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bolder;
+  background-color: #ffa3a3;
+}
+
+.basic-row-2 {
+  display: flex;
+  justify-content: center;
+  width: 95vw;
+}
+.basic-row-2 .base-color {
+  color: white;
+  font-weight: bolder;
+  border-radius: 5px;
+  background-color: blue;
+  margin: 5px;
+  padding: 20px;
+}
+.basic-row-2 .item-1 {
+  margin: 5px;
+  padding: 20px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bolder;
+  background-color: #000099;
+}
+.basic-row-2 .item-2 {
+  margin: 5px;
+  padding: 20px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bolder;
+  background-color: #0000b3;
+}
+.basic-row-2 .item-3 {
+  margin: 5px;
+  padding: 20px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bolder;
+  background-color: #0000cc;
+}
+.basic-row-2 .item-4 {
+  margin: 5px;
+  padding: 20px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bolder;
+  background-color: #0000e6;
+}
+.basic-row-2 .item-5 {
+  margin: 5px;
+  padding: 20px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bolder;
+  background-color: #6666ff;
+}
+.basic-row-2 .item-6 {
+  margin: 5px;
+  padding: 20px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bolder;
+  background-color: #7a7aff;
+}
+.basic-row-2 .item-7 {
+  margin: 5px;
+  padding: 20px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bolder;
+  background-color: #8f8fff;
+}
+.basic-row-2 .item-8 {
+  margin: 5px;
+  padding: 20px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bolder;
+  background-color: #a3a3ff;
+}
+
+.basic-row-3 {
+  display: flex;
+  justify-content: center;
+  width: 95vw;
+}
+.basic-row-3 .base-color {
+  color: white;
+  font-weight: bolder;
+  border-radius: 5px;
+  background-color: green;
+  margin: 5px;
+  padding: 20px;
+}
+.basic-row-3 .item-1 {
+  margin: 5px;
+  padding: 20px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bolder;
+  background-color: #001a00;
+}
+.basic-row-3 .item-2 {
+  margin: 5px;
+  padding: 20px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bolder;
+  background-color: #003400;
+}
+.basic-row-3 .item-3 {
+  margin: 5px;
+  padding: 20px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bolder;
+  background-color: #004d00;
+}
+.basic-row-3 .item-4 {
+  margin: 5px;
+  padding: 20px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bolder;
+  background-color: #006700;
+}
+.basic-row-3 .item-5 {
+  margin: 5px;
+  padding: 20px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bolder;
+  background-color: #00e600;
+}
+.basic-row-3 .item-6 {
+  margin: 5px;
+  padding: 20px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bolder;
+  background-color: #00fa00;
+}
+.basic-row-3 .item-7 {
+  margin: 5px;
+  padding: 20px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bolder;
+  background-color: #10ff10;
+}
+.basic-row-3 .item-8 {
+  margin: 5px;
+  padding: 20px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bolder;
+  background-color: #24ff24;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/*# sourceMappingURL=/styles.164d45a1.css.map */

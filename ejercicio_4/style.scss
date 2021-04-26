@@ -1,0 +1,68 @@
+body{
+    margin: 20px;
+    background-color:lighten($color: gray, $amount: 25);
+}
+
+#container{
+
+    display: grid;
+    width: 95vw;
+    height: 140vh;
+    padding: 5px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 1rem;
+    justify-items: center;
+
+    .item{
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+        width: 14rem;
+        border-radius: 5px;
+        background-color: white;
+
+        img{
+            border-radius: 5px;
+            height: 150px;
+        }
+
+        .sub-title{
+            color: black;
+            margin: 5px;
+            font-size: 18px;
+        }
+
+        .text{
+            margin: 5px;
+            font-size: 14px;
+            align-self: center;
+            color: black;
+        }
+
+        .public-date{
+            margin-top: 5px;
+            margin-right: 5px;
+            font-size: 12px;
+            color: greenyellow;
+            align-self: flex-end;
+           
+
+            strong{
+                color: black;
+            }
+        }
+
+        button{
+            align-self: center;
+            width: 12rem;
+            height: 40px;
+            margin-bottom: 10px;
+            color: white;
+            background-color: lighten($color: green, $amount: 15);
+            border: none;
+        }
+    }
+
+}
+

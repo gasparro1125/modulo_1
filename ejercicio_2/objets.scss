@@ -1,0 +1,92 @@
+
+@mixin style-A {
+    #style-A{
+        .color{
+            background-color: red;
+            margin-bottom: 3px;
+            padding: 20px;
+            font-style: oblique;
+            font-weight: bolder;
+        }
+        .darken{
+            background-color: darken($color: red, $amount: 30);
+            padding: 20px;
+            margin-bottom: 3px;
+            font-style: oblique;
+            font-weight: bolder;
+        }
+        .lighten{
+            background-color: lighten($color: red, $amount: 30);
+            padding: 20px;
+            margin-bottom: 3px;
+            font-style: oblique;
+            font-weight: bolder;
+        }
+        .font-1{
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .font-2{
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-weight: bolder;
+            font-style: inherit;
+        }
+        .shadow{
+            width: 75px;
+            padding:10px 5px;
+            border: 1px black solid;
+            box-shadow: -9px 5px 6px -2px black ;
+        }
+    }
+    
+}
+
+
+@mixin style-B {
+    #style-B{
+        .color{
+            background-color: blue;
+            margin-bottom: 3px;
+            padding: 20px;
+            font-style: oblique;
+            font-weight: bolder;
+        }
+        .darken{
+            background-color: darken($color: blue, $amount: 30);
+            padding: 20px;
+            border-radius: 5px;
+            margin-bottom: 3px;
+            font-style: oblique;
+            font-weight: bolder;
+        }
+        .lighten{
+            background-color: fade-out($color: blue,  $amount: 0.7);
+            padding: 20px;
+            border-radius: 5px;
+            margin-bottom: 3px;
+            font-style: oblique;
+            font-weight: bolder;
+        }
+        .font-1{
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .font-2{
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-weight: none;
+            font-style: inherit;
+        }
+        .shadow{
+            width: 75px;
+            border-radius: 5px;
+            padding:10px 5px;
+            border: 1px black solid;
+            box-shadow: 9px 5px 6px -2px black ;
+        }
+    }
+    
+}

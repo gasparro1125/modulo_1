@@ -1,0 +1,59 @@
+body {
+  margin: 20px;
+  background-color: silver;
+}
+
+#container {
+  display: grid;
+  width: 95vw;
+  height: 140vh;
+  padding: 5px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 1rem;
+  justify-items: center;
+}
+#container .item {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 14rem;
+  border-radius: 5px;
+  background-color: white;
+}
+#container .item img {
+  border-radius: 5px;
+  height: 150px;
+}
+#container .item .sub-title {
+  color: black;
+  margin: 5px;
+  font-size: 18px;
+}
+#container .item .text {
+  margin: 5px;
+  font-size: 14px;
+  align-self: center;
+  color: black;
+}
+#container .item .public-date {
+  margin-top: 5px;
+  margin-right: 5px;
+  font-size: 12px;
+  color: greenyellow;
+  align-self: flex-end;
+}
+#container .item .public-date strong {
+  color: black;
+}
+#container .item button {
+  align-self: center;
+  width: 12rem;
+  height: 40px;
+  margin-bottom: 10px;
+  color: white;
+  background-color: #00cd00;
+  border: none;
+}
+
+/*# sourceMappingURL=/style.97fcb138.css.map */

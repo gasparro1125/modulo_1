@@ -1,0 +1,87 @@
+#content {
+  display: flex;
+  margin: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+#content #style-A .color {
+  background-color: red;
+  margin-bottom: 3px;
+  padding: 20px;
+  font-style: oblique;
+  font-weight: bolder;
+}
+#content #style-A .darken {
+  background-color: #660000;
+  padding: 20px;
+  margin-bottom: 3px;
+  font-style: oblique;
+  font-weight: bolder;
+}
+#content #style-A .lighten {
+  background-color: #ff9999;
+  padding: 20px;
+  margin-bottom: 3px;
+  font-style: oblique;
+  font-weight: bolder;
+}
+#content #style-A .font-1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: "Times New Roman", Times, serif;
+}
+#content #style-A .font-2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: bolder;
+  font-style: inherit;
+}
+#content #style-A .shadow {
+  width: 75px;
+  padding: 10px 5px;
+  border: 1px black solid;
+  box-shadow: -9px 5px 6px -2px black;
+}
+#content #style-B .color {
+  background-color: blue;
+  margin-bottom: 3px;
+  padding: 20px;
+  font-style: oblique;
+  font-weight: bolder;
+}
+#content #style-B .darken {
+  background-color: #000066;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 3px;
+  font-style: oblique;
+  font-weight: bolder;
+}
+#content #style-B .lighten {
+  background-color: rgba(0, 0, 255, 0.3);
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 3px;
+  font-style: oblique;
+  font-weight: bolder;
+}
+#content #style-B .font-1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#content #style-B .font-2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: none;
+  font-style: inherit;
+}
+#content #style-B .shadow {
+  width: 75px;
+  border-radius: 5px;
+  padding: 10px 5px;
+  border: 1px black solid;
+  box-shadow: 9px 5px 6px -2px black;
+}
+
+/*# sourceMappingURL=/styles.164d45a1.css.map */

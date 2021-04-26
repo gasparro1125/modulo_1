@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (min-width: 0px) {
+  #banner {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-items: center;
+    width: 95vw;
+  }
+  #banner #header {
+    font-weight: bolder;
+    width: 95vw;
+    margin-bottom: 10px;
+  }
+  #banner #menu {
+    display: flex;
+    flex-wrap: wrap;
+    width: 15rem;
+    background-color: darkcyan;
+    justify-content: center;
+    justify-items: center;
+  }
+  #banner #menu .option {
+    padding: 10px;
+    text-align: center;
+    width: 15rem;
+    color: white;
+  }
+  #banner #menu .option:hover {
+    text-align: center;
+    width: 15rem;
+    color: black;
+    background-color: cornflowerblue;
+  }
+}
+@media screen and (min-width: 420px) {
+  #banner {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 95vw;
+  }
+  #banner #header {
+    font-weight: bolder;
+    width: 95vw;
+    margin-bottom: 10px;
+  }
+  #banner #menu {
+    display: flex;
+    width: 80vw;
+    background-color: darkcyan;
+    justify-content: space-between;
+  }
+  #banner #menu .option {
+    padding: 15px;
+    width: 200px;
+    justify-items: start;
+    color: white;
+  }
+  #banner #menu .option:hover {
+    padding: 15px;
+    width: 200px;
+    justify-items: start;
+    color: black;
+    background-color: cornflowerblue;
+  }
+}
+@media screen and (min-width: 720px) {
+  #banner {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 95vw;
+  }
+  #banner #header {
+    font-weight: bolder;
+    width: 95vw;
+    margin-bottom: 10px;
+  }
+  #banner #menu {
+    display: flex;
+    width: 95vw;
+    background-color: darkcyan;
+    justify-content: space-between;
+  }
+  #banner #menu .option {
+    padding: 15px;
+    width: 8rem;
+    justify-items: start;
+    color: white;
+  }
+  #banner #menu .option:hover {
+    padding: 15px;
+    width: 8rem;
+    justify-items: start;
+    color: black;
+    background-color: cornflowerblue;
+  }
+}
+
+/*# sourceMappingURL=/style.97fcb138.css.map */

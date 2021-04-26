@@ -1,0 +1,45 @@
+
+@mixin basic-rows ($num,$color){
+    .basic-row-#{$num}{        
+            display: flex;
+            justify-content: center;
+            width: 95vw;
+        
+        .base-color{
+            color: white;
+            font-weight: bolder;
+            border-radius: 5px;
+            background-color: $color;
+            margin: 5px;
+            padding:20px;
+        }
+
+        @for $i from 1 through 4{  
+            .item-#{$i}{     
+                margin: 5px;
+                padding:20px;   
+                border-radius: 5px;
+                color: white;
+                font-weight: bolder;
+                background-color: darken($color, $amount: 5 * (5-$i));
+            }
+        }
+    
+        @for $i from 5 through 8{  
+            .item-#{$i}{     
+                margin: 5px;
+                padding:20px;
+                border-radius: 5px;   
+                color: white;
+                font-weight: bolder;
+                background-color: lighten($color: $color, $amount: 4* $i);
+            }
+        }
+    
+    }
+    
+    
+}
+
+
+  
