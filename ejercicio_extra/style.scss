@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     body{
         margin: 2rem;
         padding: 0;
@@ -26,31 +26,27 @@
         .page-container{
             display: inline;
 
-            .menu-container{
-                margin-bottom: 0px;
+           
+            .menu{
                 position: sticky;
-                .menu{
-                    display: flex;
-                    flex: 1;
-                    flex-direction: row;
-                    background-color: greenyellow;
-                    justify-content: center;
-                    align-items: center;
+                top:0;
+                display: flex;
+                flex-direction: row;
 
-                    .menu-title{
-                       display: none;
-                    }
-
-                    p{
-                        width: 12rem;
-                        border: 1px solid black;
-                        background-color: khaki;
-                        padding: 7px;
-                        margin: 0;
-                        text-align: center;
-                    }
+                .menu-title{
+                    display: none;
                 }
+
+                p{
+                width: 12rem;
+                border: 1px solid black;
+                background-color: khaki;
+                padding: 7px;
+                margin: 0;
+                text-align: center;
+                    }
             }
+            
 
             main{
                 margin-top:0 ;
@@ -132,6 +128,7 @@
 
                 .menu{
                     position: sticky;
+                    top: 0;
                     .menu-title{
                         width: 12rem;
                         background-color: green;
