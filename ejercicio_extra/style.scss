@@ -1,92 +1,188 @@
-body{
-    margin: 2rem;
-    padding: 0;
+@media screen and (max-width: 768px) {
+    body{
+        margin: 2rem;
+        padding: 0;
 
-    header{
-        display:flex;
-        flex: 1;
-        flex-direction: column;
-        .toolbar{
-            display: flex;
-            justify-content: space-between;
-            padding: 10px;
-            background-color: white;
-    
-        }
-        .page-title{
-            background-color: yellowgreen;
-            padding: 20px;
-            color: white;
-            font-weight: bolder;
-        }
-    }
-
-    
-    .page-container{
-        display: flex;
-        flex: 1;
-        flex-wrap: nowrap;
-
-        .menu-container{
-            width: 13rem;
-            height:100%;
-            background-color:green;
-            display: flex;
+        header{
+            display:flex;
+            flex: 1;
             flex-direction: column;
-            justify-content: start;
-
-            .menu{
-                position: fixed;
-                .menu-title{
-                    width: 12rem;
-                    background-color: green;
-                    color: white;
-                    text-align: center;
-                    padding: 8px;
-                }
-
-                p{
-                    width: 12rem;
-                    border: 1px solid black;
-                    background-color: khaki;
-                    padding: 7px;
-                    margin: 0;
-                }
+            .toolbar{
+                display: flex;
+                justify-content: space-between;
+                padding: 10px;
+                background-color: white;
+        
+            }
+            .page-title{
+                background-color: yellowgreen;
+                padding: 20px;
+                color: white;
+                font-weight: bolder;
             }
         }
 
-        main{
-            background-color: gray;
-            padding: 1rem;
+        
+        .page-container{
+            display: inline;
 
-            .list{
-                display: flex;
-                gap: 1rem;
-                flex-flow: wrap;
-                justify-content: space-evenly;
-
-                .item{
-                    border: 1px solid black;
-                    background-color: white;
+            .menu-container{
+                margin-bottom: 0px;
+                position: sticky;
+                .menu{
                     display: flex;
-                    flex-direction: column;
-                    height: 200px;
-                    width: 350px;
+                    flex: 1;
+                    flex-direction: row;
+                    background-color: greenyellow;
                     justify-content: center;
                     align-items: center;
 
-                    img{
-                        height: 100px;
-                        width: 100px;
-                        border-radius: 50px;
+                    .menu-title{
+                       display: none;
+                    }
+
+                    p{
+                        width: 12rem;
+                        border: 1px solid black;
+                        background-color: khaki;
+                        padding: 7px;
+                        margin: 0;
+                        text-align: center;
+                    }
+                }
+            }
+
+            main{
+                margin-top:0 ;
+                background-color: gray;
+                padding: 1rem;
+
+                .list{
+                    display: flex;
+                    gap: 5px;
+                    flex-flow: wrap;
+                    margin-top: 10px;
+
+                    .item{
+                        border: 1px solid black;
+                        background-color: white;
+                        display: flex;
+                        flex-wrap:wrap ;
+                        flex-direction: row;
+                        height: 200px;
+                        width: 100%;
+                        justify-content: start;
+                        align-items: center;
+
+                        img{
+                            margin:25px;
+                            height: 100px;
+                            width: 100px;
+                            border-radius: 50px;
+                        }
                     }
                 }
             }
         }
-    }
 
-    footer{
-        background-color: yellow;
-        padding: 5px;
+        footer{
+            background-color: yellow;
+            padding: 5px;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    body{
+        margin: 2rem;
+        padding: 0;
+
+        header{
+            display:flex;
+            flex: 1;
+            flex-direction: column;
+            .toolbar{
+                display: flex;
+                justify-content: space-between;
+                padding: 10px;
+                background-color: white;
+        
+            }
+            .page-title{
+                background-color: yellowgreen;
+                padding: 20px;
+                color: white;
+                font-weight: bolder;
+            }
+        }
+
+        
+        .page-container{
+            display: flex;
+            flex: 1;
+            flex-wrap: nowrap;
+
+            .menu-container{
+                width: 13rem;
+                height:100%;
+                background-color:green;
+                display: flex;
+                flex-direction: column;
+                justify-content: start;
+
+                .menu{
+                    position: sticky;
+                    .menu-title{
+                        width: 12rem;
+                        background-color: green;
+                        color: white;
+                        text-align: center;
+                        padding: 8px;
+                    }
+
+                    p{
+                        width: 12rem;
+                        border: 1px solid black;
+                        background-color: khaki;
+                        padding: 7px;
+                        margin: 0;
+                    }
+                }
+            }
+
+            main{
+                background-color: gray;
+                padding: 1rem;
+
+                .list{
+                    display: flex;
+                    gap: 1rem;
+                    flex-flow: wrap;
+                    justify-content: space-evenly;
+
+                    .item{
+                        border: 1px solid black;
+                        background-color: white;
+                        display: flex;
+                        flex-direction: column;
+                        height: 200px;
+                        width: 350px;
+                        justify-content: center;
+                        align-items: center;
+
+                        img{
+                            height: 100px;
+                            width: 100px;
+                            border-radius: 50px;
+                        }
+                    }
+                }
+            }
+        }
+
+        footer{
+            background-color: yellow;
+            padding: 5px;
+        }
     }
 }
