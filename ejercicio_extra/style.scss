@@ -1,185 +1,162 @@
-@media screen and (max-width: 767px) {
-    body{
-        margin: 2rem;
-        padding: 0;
+body{
+    margin: 2rem;
+    padding: 0;
+}
 
-        header{
-            display:flex;
-            flex: 1;
-            flex-direction: column;
-            .toolbar{
-                display: flex;
-                justify-content: space-between;
-                padding: 10px;
-                background-color: white;
+
+footer{
+    background-color: yellow;
+    padding: 5px;
+}
+
+
+header{
+    display:flex;
+    flex: 1;
+    flex-direction: column;
+    .toolbar{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        background-color: white;
+
+    }
+    .page-title{
+        background-color: yellowgreen;
+        padding: 20px;
+        color: white;
+        font-weight: bolder;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
         
+    .page-container{
+        display: inline;
+
+    nav{
+        position: sticky;
+        top:0;
+        
+        .menu{
+            display: flex;
+            flex-direction: row;
+
+            .menu-title{
+                display: none;
             }
-            .page-title{
-                background-color: yellowgreen;
-                padding: 20px;
-                color: white;
-                font-weight: bolder;
+
+            p{
+            width: 12rem;
+            border: 1px solid black;
+            background-color: khaki;
+            padding: 7px;
+            margin: 0;
+            text-align: center;
+                }
+        }
+    }
+
+        main{
+            margin-top:0 ;
+            background-color: gray;
+            padding: 1rem;
+
+            .list{
+                display: flex;
+                gap: 5px;
+                flex-flow: wrap;
+                margin-top: 10px;
+
+                .item{
+                    border: 1px solid black;
+                    background-color: white;
+                    display: flex;
+                    flex-wrap:wrap ;
+                    flex-direction: row;
+                    height: 200px;
+                    width: 100%;
+                    justify-content: start;
+                    align-items: center;
+
+                    img{
+                        margin:25px;
+                        height: 100px;
+                        width: 100px;
+                        border-radius: 50px;
+                    }
+                }
             }
         }
+    }    
+}
 
-        
-        .page-container{
-            display: inline;
 
-           
+@media screen and (min-width: 768px) {
+
+    .page-container{
+        display: flex;
+        flex: 1;
+        flex-wrap: nowrap;
+
+        .menu-container{
+            width: 13rem;
+            height:100%;
+            background-color:green;
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+
             .menu{
                 position: sticky;
-                top:0;
-                display: flex;
-                flex-direction: row;
-
+                top: 0;
                 .menu-title{
-                    display: none;
+                    width: 12rem;
+                    background-color: green;
+                    color: white;
+                    text-align: center;
+                    padding: 8px;
                 }
 
                 p{
-                width: 12rem;
-                border: 1px solid black;
-                background-color: khaki;
-                padding: 7px;
-                margin: 0;
-                text-align: center;
-                    }
-            }
-            
-
-            main{
-                margin-top:0 ;
-                background-color: gray;
-                padding: 1rem;
-
-                .list{
-                    display: flex;
-                    gap: 5px;
-                    flex-flow: wrap;
-                    margin-top: 10px;
-
-                    .item{
-                        border: 1px solid black;
-                        background-color: white;
-                        display: flex;
-                        flex-wrap:wrap ;
-                        flex-direction: row;
-                        height: 200px;
-                        width: 100%;
-                        justify-content: start;
-                        align-items: center;
-
-                        img{
-                            margin:25px;
-                            height: 100px;
-                            width: 100px;
-                            border-radius: 50px;
-                        }
-                    }
+                    width: 12rem;
+                    border: 1px solid black;
+                    background-color: khaki;
+                    padding: 7px;
+                    margin: 0;
                 }
             }
         }
 
-        footer{
-            background-color: yellow;
-            padding: 5px;
+        main{
+            background-color: gray;
+            padding: 1rem;
+
+            .list{
+                display: flex;
+                gap: 1rem;
+                flex-flow: wrap;
+                justify-content: space-evenly;
+
+                .item{
+                    border: 1px solid black;
+                    background-color: white;
+                    display: flex;
+                    flex-direction: column;
+                    height: 200px;
+                    width: 350px;
+                    justify-content: center;
+                    align-items: center;
+
+                    img{
+                        height: 100px;
+                        width: 100px;
+                        border-radius: 50px;
+                    }
+                }
+            }
         }
     }
 }
 
-@media screen and (min-width: 768px) {
-    body{
-        margin: 2rem;
-        padding: 0;
-
-        header{
-            display:flex;
-            flex: 1;
-            flex-direction: column;
-            .toolbar{
-                display: flex;
-                justify-content: space-between;
-                padding: 10px;
-                background-color: white;
-        
-            }
-            .page-title{
-                background-color: yellowgreen;
-                padding: 20px;
-                color: white;
-                font-weight: bolder;
-            }
-        }
-
-        
-        .page-container{
-            display: flex;
-            flex: 1;
-            flex-wrap: nowrap;
-
-            .menu-container{
-                width: 13rem;
-                height:100%;
-                background-color:green;
-                display: flex;
-                flex-direction: column;
-                justify-content: start;
-
-                .menu{
-                    position: sticky;
-                    top: 0;
-                    .menu-title{
-                        width: 12rem;
-                        background-color: green;
-                        color: white;
-                        text-align: center;
-                        padding: 8px;
-                    }
-
-                    p{
-                        width: 12rem;
-                        border: 1px solid black;
-                        background-color: khaki;
-                        padding: 7px;
-                        margin: 0;
-                    }
-                }
-            }
-
-            main{
-                background-color: gray;
-                padding: 1rem;
-
-                .list{
-                    display: flex;
-                    gap: 1rem;
-                    flex-flow: wrap;
-                    justify-content: space-evenly;
-
-                    .item{
-                        border: 1px solid black;
-                        background-color: white;
-                        display: flex;
-                        flex-direction: column;
-                        height: 200px;
-                        width: 350px;
-                        justify-content: center;
-                        align-items: center;
-
-                        img{
-                            height: 100px;
-                            width: 100px;
-                            border-radius: 50px;
-                        }
-                    }
-                }
-            }
-        }
-
-        footer{
-            background-color: yellow;
-            padding: 5px;
-        }
-    }
-}

@@ -1,38 +1,47 @@
+body {
+  margin: 2rem;
+  padding: 0;
+}
+
+footer {
+  background-color: yellow;
+  padding: 5px;
+}
+
+header {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+header .toolbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: white;
+}
+header .page-title {
+  background-color: yellowgreen;
+  padding: 20px;
+  color: white;
+  font-weight: bolder;
+}
+
 @media screen and (max-width: 767px) {
-  body {
-    margin: 2rem;
-    padding: 0;
-  }
-  body header {
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-  }
-  body header .toolbar {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-    background-color: white;
-  }
-  body header .page-title {
-    background-color: yellowgreen;
-    padding: 20px;
-    color: white;
-    font-weight: bolder;
-  }
-  body .page-container {
+  .page-container {
     display: inline;
   }
-  body .page-container .menu {
+  .page-container nav {
     position: sticky;
     top: 0;
+  }
+  .page-container nav .menu {
     display: flex;
     flex-direction: row;
   }
-  body .page-container .menu .menu-title {
+  .page-container nav .menu .menu-title {
     display: none;
   }
-  body .page-container .menu p {
+  .page-container nav .menu p {
     width: 12rem;
     border: 1px solid black;
     background-color: khaki;
@@ -40,18 +49,18 @@
     margin: 0;
     text-align: center;
   }
-  body .page-container main {
+  .page-container main {
     margin-top: 0;
     background-color: gray;
     padding: 1rem;
   }
-  body .page-container main .list {
+  .page-container main .list {
     display: flex;
     gap: 5px;
     flex-flow: wrap;
     margin-top: 10px;
   }
-  body .page-container main .list .item {
+  .page-container main .list .item {
     border: 1px solid black;
     background-color: white;
     display: flex;
@@ -62,45 +71,20 @@
     justify-content: start;
     align-items: center;
   }
-  body .page-container main .list .item img {
+  .page-container main .list .item img {
     margin: 25px;
     height: 100px;
     width: 100px;
     border-radius: 50px;
   }
-  body footer {
-    background-color: yellow;
-    padding: 5px;
-  }
 }
 @media screen and (min-width: 768px) {
-  body {
-    margin: 2rem;
-    padding: 0;
-  }
-  body header {
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-  }
-  body header .toolbar {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-    background-color: white;
-  }
-  body header .page-title {
-    background-color: yellowgreen;
-    padding: 20px;
-    color: white;
-    font-weight: bolder;
-  }
-  body .page-container {
+  .page-container {
     display: flex;
     flex: 1;
     flex-wrap: nowrap;
   }
-  body .page-container .menu-container {
+  .page-container .menu-container {
     width: 13rem;
     height: 100%;
     background-color: green;
@@ -108,35 +92,35 @@
     flex-direction: column;
     justify-content: start;
   }
-  body .page-container .menu-container .menu {
+  .page-container .menu-container .menu {
     position: sticky;
     top: 0;
   }
-  body .page-container .menu-container .menu .menu-title {
+  .page-container .menu-container .menu .menu-title {
     width: 12rem;
     background-color: green;
     color: white;
     text-align: center;
     padding: 8px;
   }
-  body .page-container .menu-container .menu p {
+  .page-container .menu-container .menu p {
     width: 12rem;
     border: 1px solid black;
     background-color: khaki;
     padding: 7px;
     margin: 0;
   }
-  body .page-container main {
+  .page-container main {
     background-color: gray;
     padding: 1rem;
   }
-  body .page-container main .list {
+  .page-container main .list {
     display: flex;
     gap: 1rem;
     flex-flow: wrap;
     justify-content: space-evenly;
   }
-  body .page-container main .list .item {
+  .page-container main .list .item {
     border: 1px solid black;
     background-color: white;
     display: flex;
@@ -146,14 +130,10 @@
     justify-content: center;
     align-items: center;
   }
-  body .page-container main .list .item img {
+  .page-container main .list .item img {
     height: 100px;
     width: 100px;
     border-radius: 50px;
-  }
-  body footer {
-    background-color: yellow;
-    padding: 5px;
   }
 }
 
